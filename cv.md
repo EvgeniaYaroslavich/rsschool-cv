@@ -29,6 +29,13 @@ function multiply(a, b){
   return a * b
 }
 ```
+* __Sum of positive__
+```
+function positiveSum(arr) {
+   return arr.reduce((a,b)=> a + (b > 0 ? b : 0),0);
+}
+```
+
 ## Experience ##
 ???
 ## English Language ##
