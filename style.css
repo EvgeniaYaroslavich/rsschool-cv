@@ -1,0 +1,28 @@
+h1, h2 {
+    border-bottom: 1px solid #eee;
+}
+
+pre {
+    background-color: #eee;
+}
+
+.cv-block {
+    width: 800px;
+    border: 1px solid #eee;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.img {
+    width: 200px;
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.description {
+    background-color: #eee;
+    padding: 10px;
+}
+
