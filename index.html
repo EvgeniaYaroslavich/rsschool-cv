@@ -9,67 +9,72 @@
 </head>
     <body>
         <div class="cv-block">
-        <header class="header">
-            <img class="img" src="img/foto.jpg">
+            <header class="header">
+                <img class="img" alt="foto" src="img/foto.jpg">
        
-            <h1 class="name">Evgenia Yaroslavich</h1>
+                <h1 class="name">Evgenia Yaroslavich</h1>
 
-            <address class="contacts">
-            <b>E-mail</b>
-            <a href="mailto:yaroslavichjane@gmail.com"> yaroslavichjane@gmail.com</a><br>
-            <b>Phone number</b>
-            <a href="tel:+7(912)450-11-13">+7(912)450-11-13</a><br>
-            <b>Telegram</b>
-            <a href="https://t.me/saintbarbara666">@saintbarbara666</a>
-            </address>
-        </header>
+                <nav class="contacts">
+                    <h3 class="title-contacts">Contacts</h3>
+                    <ul>
+                        <li><b>E-mail</b>
+                        <a  class="link" href="mailto:yaroslavichjane@gmail.com"> yaroslavichjane@gmail.com</a><br></li>
+                        <li><b>Phone number</b>
+                        <a class="link" href="tel:+7(912)450-11-13">+7(912)450-11-13</a><br></li>
+                        <li><b>Telegram</b>
+                        <a class="link" href="https://t.me/saintbarbara666">@saintbarbara666</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-        <main class="main">
-            <div class="about-me">
-                <h2 class="title">About Me</h2> 
-                <p class="description">The purpose of my training is a job offer. Although I have no experience
-                in this specialty,<br>there is a great desire to learn.</p>
-            </div>
-            <div class="education">
-                <h2 title="">Education</h2>
-                <ul class="list">
-                    <li><b>1997-2007</b>&emsp;<i>Izhevsk secondary school</i></li>
-                    <li><b>2005-2008</b>&emsp;<i>Izhevsk Polytechnic, Economics and Finance (unfinished)</i></li>
-                    <li><b>Desember, 2020</b>&emsp;<i>Html / CSS beginner course (self-education)</i></li>
-                </ul>
-            </div>
-            <div class="code-example">
-                <h2 class="title">Code examples</h2>
-                <ul class="list">
-                    <li><b>Reversed Strings</b></li>
-                    <pre>
-                    function solution(str) {
-                        return str.split('').reverse().join('');  
-                    }
-                    </pre>
-                    <li><b>Multiply</b></li>
-                    <pre>
-                    function multiply(a, b) {
-                        return a * b
-                    }
-                    </pre>
-                    <li><b>Sum of positive</b></li>
-                    <pre>
-                    function positiveSum(arr) {
-                        return arr.reduce((a,b)=> a + (b > 0 ? b : 0),0);
-                    }
-                    </pre>
-                </ul>
-            <div>
-            <div>
-                <h2 class="title">Experience</h2>
-                <p class="text">???</p>
-            </div>
-            <div>
-                <h2 class="title">English Language</h2>
-                <p class="text"><b>A1</b>(Elementary)</p>
-            </div>
-        </main>
+            <main class="main">
+                <section class="about-me">
+                    <h3 class="title">About Me</h3> 
+                    <p class="description">The purpose of my training is a job offer. Although I have no experience
+                    in this specialty,<br>there is a great desire to learn.</p>
+                </section>
+                <section class="education">
+                    <h3 title="">Education</h3>
+                    <ul class="list">
+                        <li><b>1997-2007</b>&emsp;<i>Izhevsk secondary school</i></li>
+                        <li><b>2005-2008</b>&emsp;<i>Izhevsk Polytechnic, Economics and Finance (unfinished)</i></li>
+                        <li><b>Desember, 2020</b>&emsp;<i>Html / CSS beginner course (self-education)</i></li>
+                    </ul>
+                </section>
+                <section class="code-example">
+                    <h3 class="title">Code examples</h3>
+                    <div class="list">
+                        <h4><b>Reversed Strings</b></h4>
+                            <pre>
+                            function solution(str) {
+                                return str.split('').reverse().join('');  
+                            }
+                            </pre>
+                        <h4><b>Multiply</b></h4>
+                        
+                            <pre>
+                            function multiply(a, b) {
+                                return a * b
+                            }
+                            </pre> 
+
+                        <h4><b>Sum of positive</b></h4>
+                            <pre>
+                            function positiveSum(arr) {
+                                return arr.reduce((a,b)=> a + (b > 0 ? b : 0),0);
+                            }
+                            </pre> 
+                    </div>
+                </section>
+                <section>
+                    <h3 class="title">Experience</h3>
+                    <p class="text">???</p>
+                </section>
+                <section>
+                    <h3 class="title">English Language</h3>
+                    <p class="text"><b>A1</b>(Elementary)</p>
+                </section>
+            </main>
         </div>
     </body>
 </html>
