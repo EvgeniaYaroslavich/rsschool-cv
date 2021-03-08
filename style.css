@@ -1,4 +1,4 @@
-h1, h2 {
+h1, h3 {
     border-bottom: 1px solid #eee;
 }
 
@@ -19,10 +19,14 @@ pre {
 
 .contacts {
     font-style: normal;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
 }
 
 .description {
     background-color: #eee;
     padding: 10px;
 }
-
